@@ -1,0 +1,7 @@
+interface:
+  display_name: "高中数学分步批改标注"
+  short_description: "按规则批改高中数学解答、合并分块并回写标注Excel"
+  default_prompt: "Use $high-school-math-annotation to grade the attached high-school math solution workbook and return an annotated Excel file."
+
+policy:
+  allow_implicit_invocation: true
